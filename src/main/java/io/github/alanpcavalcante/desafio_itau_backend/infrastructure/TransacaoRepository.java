@@ -4,11 +4,12 @@ import io.github.alanpcavalcante.desafio_itau_backend.domain.transacao.Transacao
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Component
 public class TransacaoRepository {
 
-    public ArrayList<Transacao> transacaos = new ArrayList<>();
+    public List<Transacao> transacaos = new ArrayList<>();
 
 
     public void registrar(Transacao transacao) {

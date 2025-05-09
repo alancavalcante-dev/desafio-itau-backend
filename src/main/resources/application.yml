@@ -5,5 +5,9 @@ spring:
     ansi:
       enabled: ALWAYS
 
+transactions:
+  timer:
+    seconds: 60
+
 springdoc:
   override-with-generic-response: false
