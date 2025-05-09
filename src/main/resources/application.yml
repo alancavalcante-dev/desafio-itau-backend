@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: desafio-itau-backend
+  output:
+    ansi:
+      enabled: ALWAYS
+
+springdoc:
+  override-with-generic-response: false
