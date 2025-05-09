@@ -19,7 +19,7 @@ public class EstatistaService {
 
     public DoubleSummaryStatistics estatistica(OffsetDateTime horaInicial) {
         final BigDecimal[] filtrados = this.repository.transacaos.stream()
-                .filter(t -> t.getDataHora().isBefore(horaInicial) || t.getDataHora().equals(horaInicial))
+                .filter(t -> t.getDataHora().isAfter(horaInicial) || t.getDataHora().equals(horaInicial))
                 .map(t -> t.getValor()).toArray(BigDecimal[]::new);
 
         DoubleStream doubleStream = Arrays.stream(filtrados).mapToDouble(BigDecimal::doubleValue);
