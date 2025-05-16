@@ -8,7 +8,7 @@ Este repositório contém a solução desenvolvida para o **desafio técnico bac
 ## 🔧 Tecnologias Utilizadas
 
 - Java 21
-- Spring Boot
+- Spring Boot 3.4.5
 - Spring Web
 - Springdoc OpenAPI
 - Lombok
