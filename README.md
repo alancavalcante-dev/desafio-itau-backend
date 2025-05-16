@@ -148,8 +148,10 @@ Se quiser pode rodar normalmente usando Maven:
 "./mvnw clean install" <br>
 "./mvnw spring-boot:run"
 </i>
+
 <br>
 Ou, pode utilizar Docker com o Dockerfile já configurado:
+<br>
 
 <i>
 "docker build -t desafio-itau-backend ." <br>
