@@ -151,7 +151,7 @@ Se quiser pode rodar normalmente usando Maven:
 
 <br><br>
 Ou, pode utilizar Docker com o Dockerfile já configurado:
-<br><br>
+<br>
 
 <i>
 "docker build -t desafio-itau-backend ." <br>
