@@ -130,8 +130,7 @@ springdoc:
 - Retornos padronizados com os códigos de status adequados:
   - `422` para erros genéricos
   - `400` para erros de valor inválido ou data futura
-  - `200` para mostrar conteúdos
-  - `201` para mostrar status de criação
+
 ---
 
 ## 🔧 Monitoramento com Spring Boot Actuator
