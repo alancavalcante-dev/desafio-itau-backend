@@ -10,4 +10,16 @@ transactions:
     seconds: 60
 
 springdoc:
-  override-with-generic-response: false
+  override-with-generic-response: true
+
+logging:
+  file:
+    name: app.log
+
+management:
+  server:
+    port: 9090
+  endpoints:
+    web:
+      exposure:
+        include: '*'

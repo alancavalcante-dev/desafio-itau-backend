@@ -1,0 +1,58 @@
+2025-05-16T11:22:08.836-03:00  INFO 2624 --- [desafio-itau-backend] [main] i.g.a.d.DesafioItauBackendApplication    : Starting DesafioItauBackendApplication using Java 23.0.1 with PID 2624 (C:\Users\admin.alan\Desktop\desafio-itau-backend\target\classes started by admin.alan in C:\Users\admin.alan\Desktop\desafio-itau-backend)
+2025-05-16T11:22:08.843-03:00  INFO 2624 --- [desafio-itau-backend] [main] i.g.a.d.DesafioItauBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-16T11:22:10.174-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-16T11:22:10.185-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T11:22:10.186-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T11:22:10.234-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-16T11:22:10.234-03:00  INFO 2624 --- [desafio-itau-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1321 ms
+2025-05-16T11:22:10.978-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-16T11:22:11.054-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-05-16T11:22:11.055-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T11:22:11.055-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T11:22:11.077-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-05-16T11:22:11.077-03:00  INFO 2624 --- [desafio-itau-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 94 ms
+2025-05-16T11:22:11.092-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-05-16T11:22:11.135-03:00  INFO 2624 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-05-16T11:22:11.146-03:00  INFO 2624 --- [desafio-itau-backend] [main] i.g.a.d.DesafioItauBackendApplication    : Started DesafioItauBackendApplication in 2.829 seconds (process running for 3.155)
+2025-05-16T11:22:19.464-03:00  INFO 2624 --- [desafio-itau-backend] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+2025-05-16T11:22:19.465-03:00  INFO 2624 --- [desafio-itau-backend] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServletRegistration'
+2025-05-16T11:22:19.465-03:00  INFO 2624 --- [desafio-itau-backend] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-16T11:24:53.164-03:00  INFO 2624 --- [desafio-itau-backend] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-16T11:24:53.164-03:00  INFO 2624 --- [desafio-itau-backend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-16T11:24:53.166-03:00  INFO 2624 --- [desafio-itau-backend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-16T11:24:53.178-03:00  INFO 2624 --- [desafio-itau-backend] [http-nio-8080-exec-3] i.g.a.d.controller.StatisticController   : Mostrar Estatísticas
+2025-05-16T13:22:44.137-03:00  INFO 2624 --- [desafio-itau-backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T13:22:44.191-03:00  INFO 2624 --- [desafio-itau-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-16T13:22:44.195-03:00  INFO 2624 --- [desafio-itau-backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T13:22:44.222-03:00  INFO 2624 --- [desafio-itau-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-16T13:22:47.089-03:00  INFO 31408 --- [desafio-itau-backend] [main] i.g.a.d.DesafioItauBackendApplication    : Starting DesafioItauBackendApplication using Java 23.0.1 with PID 31408 (C:\Users\admin.alan\Desktop\desafio-itau-backend\target\classes started by admin.alan in C:\Users\admin.alan\Desktop\desafio-itau-backend)
+2025-05-16T13:22:47.091-03:00  INFO 31408 --- [desafio-itau-backend] [main] i.g.a.d.DesafioItauBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-16T13:22:48.438-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-16T13:22:48.450-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T13:22:48.450-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T13:22:48.501-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-16T13:22:48.501-03:00  INFO 31408 --- [desafio-itau-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1364 ms
+2025-05-16T13:22:49.238-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-16T13:22:49.306-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-05-16T13:22:49.307-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-16T13:22:49.307-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-16T13:22:49.327-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-05-16T13:22:49.327-03:00  INFO 31408 --- [desafio-itau-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-05-16T13:22:49.345-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-05-16T13:22:49.384-03:00  INFO 31408 --- [desafio-itau-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-05-16T13:22:49.394-03:00  INFO 31408 --- [desafio-itau-backend] [main] i.g.a.d.DesafioItauBackendApplication    : Started DesafioItauBackendApplication in 2.8 seconds (process running for 3.401)
+2025-05-16T13:23:52.357-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-16T13:23:52.357-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-16T13:23:52.358-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-16T13:23:52.449-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-1] i.g.a.d.c.TransactionController          : Adicionando Transação
+2025-05-16T13:23:52.450-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-1] i.g.a.d.c.TransactionController          : Transação adicionada com sucesso.
+2025-05-16T13:24:09.197-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-3] i.g.a.d.c.TransactionController          : Adicionando Transação
+2025-05-16T13:24:09.197-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-3] i.g.a.d.d.t.TransactionService           : ERROR: A data não pode ultrapassar a data atual
+2025-05-16T13:24:15.665-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-5] i.g.a.d.c.TransactionController          : Adicionando Transação
+2025-05-16T13:24:15.665-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-5] i.g.a.d.d.t.TransactionService           : ERROR: A data não pode ultrapassar a data atual
+2025-05-16T13:24:27.660-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-7] i.g.a.d.controller.StatisticController   : Mostrar Estatísticas
+2025-05-16T13:24:40.015-03:00  INFO 31408 --- [desafio-itau-backend] [http-nio-8080-exec-8] i.g.a.d.controller.StatisticController   : Mostrar Estatísticas
+2025-05-16T13:33:00.727-03:00  INFO 31408 --- [desafio-itau-backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T13:33:00.756-03:00  INFO 31408 --- [desafio-itau-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-16T13:33:00.756-03:00  INFO 31408 --- [desafio-itau-backend] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-16T13:33:00.782-03:00  INFO 31408 --- [desafio-itau-backend] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

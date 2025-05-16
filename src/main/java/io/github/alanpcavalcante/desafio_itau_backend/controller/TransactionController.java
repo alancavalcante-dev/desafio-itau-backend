@@ -1,9 +1,8 @@
 package io.github.alanpcavalcante.desafio_itau_backend.controller;
 
 
-import io.github.alanpcavalcante.desafio_itau_backend.domain.transacao.Transacao;
-import io.github.alanpcavalcante.desafio_itau_backend.domain.transacao.TransacaoService;
-import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.github.alanpcavalcante.desafio_itau_backend.domain.transaction.Transaction;
+import io.github.alanpcavalcante.desafio_itau_backend.domain.transaction.TransactionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
@@ -16,19 +15,19 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/transacao")
 @Tag(name = "Endpoint de Transações")
 @Slf4j
-public class TransacaoController {
+public class TransactionController {
 
 
     @Autowired
-    private TransacaoService service;
+    private TransactionService service;
 
 
     @PostMapping
     @Operation(summary = "Registra uma transação")
-    public ResponseEntity<Void> registrarTransacao(@RequestBody Transacao transacao) {
+    public ResponseEntity<Void> registerTransaction(@RequestBody Transaction transaction) {
         log.info("Adicionando Transação");
 
-        service.salvarTransacao(transacao);
+        service.saveTransaction(transaction);
         log.info("Transação adicionada com sucesso.");
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
@@ -36,10 +35,10 @@ public class TransacaoController {
 
     @DeleteMapping
     @Operation(summary = "Limpa todas transações")
-    public ResponseEntity<Void> limparCacheTransacao() {
+    public ResponseEntity<Void> clearCacheTransaction() {
         log.info("Limpando Transações");
 
-        service.limparCache();
+        service.clearCache();
         log.info("Cache das transações limpas com sucesso.");
         return ResponseEntity.noContent().build();
 

@@ -1,4 +1,4 @@
-package io.github.alanpcavalcante.desafio_itau_backend.domain.estatistica;
+package io.github.alanpcavalcante.desafio_itau_backend.domain.statistics;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +7,7 @@ import java.util.DoubleSummaryStatistics;
 
 @Getter
 @Setter
-public class EstatisticaDTO {
+public class StatisticsDTO {
 
     double count;
     double sum;
@@ -15,7 +15,7 @@ public class EstatisticaDTO {
     double max;
     double average;
 
-    public EstatisticaDTO(DoubleSummaryStatistics stats) {
+    public StatisticsDTO(DoubleSummaryStatistics stats) {
         this.count = stats.getCount();
         this.sum = stats.getSum();
         this.average = stats.getAverage();

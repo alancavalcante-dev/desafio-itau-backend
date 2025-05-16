@@ -1,7 +1,7 @@
 package io.github.alanpcavalcante.desafio_itau_backend.controller;
 
-import io.github.alanpcavalcante.desafio_itau_backend.domain.estatistica.EstatistaService;
-import io.github.alanpcavalcante.desafio_itau_backend.domain.estatistica.EstatisticaDTO;
+import io.github.alanpcavalcante.desafio_itau_backend.domain.statistics.StatisticsService;
+import io.github.alanpcavalcante.desafio_itau_backend.domain.statistics.StatisticsDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import java.util.DoubleSummaryStatistics;
 @RequestMapping("/estatistica")
 @Slf4j
 @Tag(name = "Endpoint de Estatistica")
-public class EstatisticaController {
+public class StatisticController {
 
     /**
      * Este controller define o endpoint responsável por retornar estatísticas das transações.
@@ -29,23 +29,24 @@ public class EstatisticaController {
      */
 
     @Value("${transactions.timer.seconds:60}")
-    private int periodoUltimasTransacoes;
+    private int periodLastTransactions;
 
     @Autowired
-    private EstatistaService service;
+    private StatisticsService service;
 
     @GetMapping
     @Operation(
             summary = "Estatísticas das transações efetuadas",
             description = "Exibe as estatísticas das transações a partir do momento da requisição, considerando um período de tempo configurável."
     )
-    public ResponseEntity<EstatisticaDTO> mostrarEstatistica() {
+    public ResponseEntity<StatisticsDTO> showStatistics() {
         log.info("Mostrar Estatísticas");
 
-        final var horaInicial = OffsetDateTime.now().minusSeconds(periodoUltimasTransacoes);
-        DoubleSummaryStatistics estatisticaGerada = service.estatistica(horaInicial);
-        EstatisticaDTO estatisticaDTO = new EstatisticaDTO(estatisticaGerada);
-        return ResponseEntity.ok(estatisticaDTO);
+        final var hourStarted = OffsetDateTime.now().minusSeconds(periodLastTransactions);
+        DoubleSummaryStatistics statisticsGenerated = service.statistics(hourStarted);
+        StatisticsDTO statisticsDTO = new StatisticsDTO(statisticsGenerated);
+
+        return ResponseEntity.ok(statisticsDTO);
     }
 
 }
