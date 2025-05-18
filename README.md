@@ -106,7 +106,7 @@ http://localhost:8080/swagger-ui.html
 
 ---
 
-## 📄 Observabilidade / Métricas / Monitoramente
+## 📄 Observabilidade / Métricas / Monitoramento
 
 ```
 http://localhost:9090/actuator
