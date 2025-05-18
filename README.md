@@ -106,6 +106,14 @@ http://localhost:8080/swagger-ui.html
 
 ---
 
+## 📄 Observabilidade / Métricas / Monitoramente
+
+```
+http://localhost:9090/actuator
+```
+
+---
+
 ## ⚙️ Configurações (application.yml)
 
 ```yaml
