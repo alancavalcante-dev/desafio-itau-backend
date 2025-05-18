@@ -143,7 +143,7 @@ Este projeto utiliza o Spring Boot Actuator para expor endpoints de gerenciament
 <i>
 "git clone https://github.com/alancavalcante-dev/desafio-itau-backend.git"
 </i>
-
+<br>
 Se quiser pode rodar normalmente usando Maven:
 
 <i>
@@ -159,7 +159,7 @@ Ou, pode utilizar Docker com o Dockerfile já configurado:
 "docker run -p 8080:8080 -p 9090:9090 desafio-itau-backend"
 </i>
 
-## URLs
+## 🌐 URLs
 🔗 http://localhost:8080/transacao <br>
 🔗 http://localhost:8080/estatistica <br>
 🔗 http://localhost:9090/actuator
