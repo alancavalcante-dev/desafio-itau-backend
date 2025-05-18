@@ -68,8 +68,8 @@ src/
 **POST /transacao**
 ```json
 {
-  "value": 100.0,
-  "dateTime": "2025-05-16T14:00:00Z"
+  "valor": 100.0,
+  "dataHora": "2025-05-16T14:00:00Z"
 }
 ```
 
