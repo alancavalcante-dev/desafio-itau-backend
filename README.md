@@ -13,7 +13,6 @@ Este repositório contém a solução desenvolvida para o **desafio técnico bac
 - Springdoc OpenAPI
 - Lombok
 - SLF4J (log)
-- JUnit/Testes
 - Swagger UI
 - Docker
 - Exception Handler
@@ -141,6 +140,10 @@ Este projeto utiliza o Spring Boot Actuator para expor endpoints de gerenciament
 
 ## 🚀 Como executar
 
+<i>
+"git clone https://github.com/alancavalcante-dev/desafio-itau-backend.git"
+</i>
+
 Se quiser pode rodar normalmente usando Maven:
 
 <i>
@@ -151,7 +154,6 @@ Se quiser pode rodar normalmente usando Maven:
 <br><br>
 Ou, pode utilizar Docker com o Dockerfile já configurado:
 <br>
-
 <i>
 "docker build -t desafio-itau-backend ." <br>
 "docker run -p 8080:8080 -p 9090:9090 desafio-itau-backend"
