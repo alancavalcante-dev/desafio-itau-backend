@@ -145,12 +145,11 @@ Este projeto utiliza o Spring Boot Actuator para expor endpoints de gerenciament
 </i>
 <br>
 Se quiser pode rodar normalmente usando Maven:
-
+<br>
 <i>
 "./mvnw clean install" <br>
 "./mvnw spring-boot:run"
 </i>
-
 <br><br>
 Ou, pode utilizar Docker com o Dockerfile já configurado:
 <br>
